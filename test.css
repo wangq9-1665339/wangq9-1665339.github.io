@@ -1,6 +1,9 @@
 /*
 1. set tag <a> a position static;
 2. add scrollbars for the overflow content with tag<p>
+3. set opacity of <img> into 0.2
+4. add outline for <h3>
+5. use max-width in content
 */
 #Header {
 	width: 500px;
@@ -23,7 +26,7 @@
 }
 
 #Content {
-	width: 700px;
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
@@ -61,6 +64,7 @@ h3{
 	font-size:40px;
 	font-family: "Passion One";
 	margin-bottom: 0px;
+	outline: dashed 10px white;
 }
 
 div{
@@ -74,4 +78,7 @@ a{
 	color:white;
 	font-weight: bold;
 	font-size:24px;
+}
+img{
+	opacity: 0.2;
 }
